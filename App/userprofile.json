@@ -1,0 +1,105 @@
+[
+    [ {
+        "Username" : "JohnDoe",
+        "Password" : "JohnDoe",
+        "Firstname" : "John",
+        "Lastname" : "Doe",
+        "Email" : "JohnDoe@xyz.com",
+        "Phone" : "9999999999",
+        "Location" : "US"
+    },
+    {
+        "Username" : "NancyBrew",
+        "Password" : "NancyBrew",
+        "Firstname" : "Nancy",
+        "Lastname" : "Brew",
+        "Email" : "NancyBrew@xyz.com",
+        "Phone" : "9999999999",
+        "Location" : "Africa"
+    },
+    {
+        "Username" : "ChandlerBing",
+        "Password" : "ChandlerBing",
+        "Firstname" : "Chandler",
+        "Lastname" : "Bing",
+        "Email" : "ChandlerBing@xyz.com",
+        "Phone" : "9999999999",
+        "Location" : "Europe"
+    },
+    {
+        "Username" : "TomCruise",
+        "Password" : "TomCruise",
+        "Firstname" : "Tom",
+        "Lastname" : "Cruise",
+        "Email" : "TomCruise@xyz.com",
+        "Phone" : "9999999999",
+        "Location" : "China"
+    }
+    ],
+    [
+    {
+    "recipient": "NancyBrew",
+    "recipient_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "sender": "JohnDoe",
+    "sender_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "title": "Hi Nancy!",
+    "description": "Hey nancy. Hope you are doing great!",
+    "created_at": "2014-12-30T03:01:50 +05:00",
+    "important": 1,
+    "reply":["Yeah! How are you?","I am great!"]
+  },
+  {
+    "recipient": "JohnDoe",
+    "recipient_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "sender": "ChandlerBing",
+    "sender_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "title": "Hi John",
+    "description": "Hey John. Lets catch up!",
+    "created_at": "2015-04-13T01:06:08 +04:00",
+    "important": 4,
+    "reply":["For sure. When?"]
+  },
+  {
+    "recipient": "TomCruise",
+    "recipient_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "sender": "ChandlerBing",
+    "sender_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "title": "Tom ! Wassup!",
+    "description": "How have you been Tom.",
+    "created_at": "2014-12-19T02:02:36 +05:00",
+    "important": 3,
+    "reply":["Great!!"]
+  },
+  {
+    "recipient": "ChandlerBing",
+    "recipient_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "sender": "JohnDoe",
+    "sender_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "title": "test msg to Chandler",
+    "description": "Test Message",
+    "created_at": "2014-01-07T05:46:02 +05:00",
+    "important": 1,
+    "reply":["test reply"]
+  },
+  {
+    "recipient": "JohnDoe",
+    "recipient_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "sender": "NancyBrew",
+    "sender_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "title": "Did you get a chance to look into this?",
+    "description": "Did you see the code that I have written?",
+    "important": 1,
+    "reply":["Yea. Awesome!"]
+  },
+  {
+    "recipient": "TomCruise",
+    "recipient_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "sender": "ChandlerBing",
+    "sender_img": "http://simpleicon.com/wp-content/uploads/user1.png",
+    "title": "Tom Boy!",
+    "description": "How you doing my man!",
+    "important": 4,
+    "reply":["Doing great!","Hello","You there?"]
+  }
+]
+]

@@ -1,0 +1,38 @@
+<div class="jumbotron" ng-controller="registerController as r" data-ng-init="fn_load()">
+    <div>
+      <h2>Registration Page</h2>
+      <form>
+        <div class="form-group">
+          <label for="username">User Name:</label>
+          <input type="text" class="form-control" id="username" ng-model="username" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" id="password" ng-model="password" placeholder="Enter password">
+        </div>
+        <div class="form-group">
+          <label for="firstname">First Name:</label>
+          <input type="text" class="form-control" id="firstname" ng-model="firstname" placeholder="Enter firstname">
+        </div>
+        <div class="form-group">
+          <label for="lastname">Last Name:</label>
+          <input type="text" class="form-control" id="lastname" ng-model="lastname" placeholder="Enter lastname">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" ng-model="email" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="text" class="form-control" id="phone" ng-model="phone" placeholder="Enter phone">
+        </div>
+        <div class="form-group">
+          <label for="location">Location:</label>
+          <input type="text" class="form-control" id="location" ng-model="location" placeholder="Enter location">
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="r.submitDetails()">Submit</button>
+      </form>
+    </div>
+    {{register_error_message}}   
+        
+</div>
